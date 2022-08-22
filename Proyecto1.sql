@@ -1,5 +1,5 @@
 
-CREATE SCHEMA IF NOT EXISTS `mibase` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
+CREATE SCHEMA IF NOT EXISTS MiBase;
 USE `mibase` ;
 
 -- TABLA MATERIA
@@ -47,9 +47,7 @@ DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
 
 
--- -----------------------------------------------------
--- Table `mibase`.`curso`
--- -----------------------------------------------------
+-- TABLA CURSO
 CREATE TABLE IF NOT EXISTS `mibase`.`curso` (
   `idCurso` INT NOT NULL AUTO_INCREMENT,
   `Nombre` VARCHAR(30) NOT NULL,
